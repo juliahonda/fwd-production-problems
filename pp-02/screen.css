@@ -15,30 +15,30 @@ html {
   font-family: 'Crimson Text', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
   font-size: 20px;
   line-height: 25px;
-  padding: 25px 12.5px 12.5px 25px;
+  padding: 25px 12.5px 25px 12.5px; /* not working TRBL */
 }
 
 h1, nav {
   padding-bottom: 25px;
 }
 
-h2{
+h2 {
   font-weight:bold;
 }
 
-ul {
+ul { /* not working */
   padding-bottom: 12.5px;
-  list-style-type:disc;
+  list-style-type: disc;
 }
 
-.green-background {
+.personal-info {
   background-color: green;
-}
-
-.dog{
-  padding-bottom: 25px;
 }
 
 .quick-facts {
   font-weight:bold;
+}
+
+.awesome-dog{ /* not working */
+  padding-bottom: 25px
 }
