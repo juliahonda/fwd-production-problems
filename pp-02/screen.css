@@ -15,10 +15,14 @@ html {
   font-family: 'Crimson Text', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
   font-size: 20px;
   line-height: 25px;
-  padding: 25px 12.5px 25px 12.5px; /* not working TRBL */
+  padding: 1.5em; /* not working TRBL with pixels but worked with em */
 }
 
-h1, nav {
+h1 {
+  font-size: 30px;
+}
+
+h1, nav, footer {
   padding-bottom: 25px;
 }
 
@@ -26,19 +30,20 @@ h2 {
   font-weight:bold;
 }
 
-ul { /* not working */
-  padding-bottom: 12.5px;
+ul {
+  padding-bottom: 0;
   list-style-type: disc;
 }
 
 .personal-info {
   background-color: green;
+  padding-bottom: 25px;
 }
 
 .quick-facts {
   font-weight:bold;
 }
 
-.awesome-dog{ /* not working */
-  padding-bottom: 25px
+.awesome-dog{
+  padding-bottom: 25px;
 }
