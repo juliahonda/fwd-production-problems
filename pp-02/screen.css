@@ -19,10 +19,10 @@ html {
 }
 
 h1 {
-  font-size: 1.5em; /* 30px / 20px = 1.5... page still not responding to this change*/
+  font-size: 1.15em; /* 23px / 20px = 1.15*/
 }
 
-h1, nav, footer { /*footer still not responding to this add on page */
+h1, nav {
   padding-bottom: 25px;
 }
 
