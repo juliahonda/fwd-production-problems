@@ -31,7 +31,6 @@ h2 {
 }
 
 ul {
-  padding-bottom: 0; /* originally was added for padding but I didnt like the way it looked so kept it at 0 */
   list-style-type: disc;
 }
 
