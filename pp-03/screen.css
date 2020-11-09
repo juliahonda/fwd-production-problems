@@ -35,14 +35,26 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #three,
 #two,
 #one {
-  width: 100vw;
   height: 100vw;
 }
 
 @media screen and (min-width: 600px) {
   #content{
     display: flex;
-    
+    flex-flow:row wrap-reverse;
+  }
+  #one, #two{
+    width: 50vw;
+    height: 50vw;
+  }
+  #three {
+    width: 100vw;
+  }
+  #one{
+    order: 1;
+  }
+  #two {
+    order: 2
   }
 }
 
