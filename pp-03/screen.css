@@ -59,11 +59,24 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 800px) {
+  #content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
   #three,
   #two,
   #one {
-    display: flex;
-    width: 100vw;
-    height: 100vw;
+    width: 33.3333333vw; /*100/3=33.3333333*/
+    height: 33.3333333vw; /*100/3=33.3333333*/
+  }
+  #one {
+    order: -1;
+  }
+  #two {
+    order: 0;
+  }
+  #three {
+    order: 1;
   }
 }
