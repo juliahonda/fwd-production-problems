@@ -22,7 +22,25 @@ console.log('The value of x is', x, '-- it should be 5.');
 
   Be sure to comment out the original `double()` function so you
   can accurately test your work.
+
+  --with the function above enetering: window.x I got 5 now with what I have
+  below when I enter window.x I get "Uncaught ReferenceError: windox is not defined
+    <anonymous> debugger eval code:1"
+  not sure if that is how you correctly not pollute the global namespace
+  just what I saw in examples of "not polluting the global namespace in JavaScript"
 */
+
+(function(){
+ var x = 5;
+ function double(num) {
+   var x = num * 2;
+   return x;
+  }
+ }
+})();
+
+double(6);
+console.log('The value of x is', x, '-- it should be 5.');
 
 
 /*
